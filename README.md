@@ -1,2 +1,2 @@
-# babylon-basic
-Basic babylon.js repository
+# babylon-objects
+Babylon with object loader
