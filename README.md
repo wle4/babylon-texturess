@@ -1,2 +1,2 @@
-# babylon-objects
-Babylon with object loader
+# babylon-basic
+Basic babylon document
