@@ -27,6 +27,6 @@ function fileMat(file, scene){
 //create material from hex color
 function hexMat(hex, scene){
     var mat = new BABYLON.StandardMaterial('material', scene);
-    mat.diffuseColor = BABYLON.Color3.FromHexString(hex, scene);
+    mat.diffuseColor = BABYLON.Color3.FromHexString(hex);
     return mat; 
 }
