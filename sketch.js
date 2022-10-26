@@ -35,7 +35,7 @@ var createScene = function () {
     scene.clearColor = new BABYLON.Color3.FromHexString('#000');
 
 
-    //create sphere
+    //create sphere w params (x, y, z, diameter)
     var s1 = createSphere(-1, 1, -1, 2);
 
     //wrap sphere in material from URL file
