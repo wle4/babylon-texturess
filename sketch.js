@@ -31,7 +31,7 @@ var createScene = function () {
     // Default intensity is 1. Let's dim the light a small amount
     light.intensity = 0.7;
 
-    //
+    //color background black
     scene.clearColor = new BABYLON.Color3.FromHexString('#000');
 
 
