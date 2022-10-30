@@ -45,7 +45,7 @@ var createScene = function () {
     var s2 = createSphere(2, 2, 0.5, 2);
 
     //wrap sphere in material from local file
-    s2.material = fileMat('moon.jpg', scene);
+    s2.material = fileMat('pacaa.png', scene);
     
     //create box with params x, y, z, width, height, ddepth
     var b1 = createBox(2, -2, 2, 1, 1, 1);
