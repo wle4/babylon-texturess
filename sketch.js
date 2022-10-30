@@ -51,7 +51,7 @@ var createScene = function () {
     var s2 = createSphere(1, 1, 50, 50);
 
     //wrap sphere in material from local file
-    s2.material = fileMat('pacaa.png', scene);
+    s2.material = fileMat('water.jpg', scene);
     
     //create box with params x, y, z, width, height, ddepth
     var b1 = createBox(2, -2, 2, 1, 1, 1);
