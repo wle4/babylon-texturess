@@ -48,7 +48,7 @@ var createScene = function () {
     s2.material = fileMat('pacaa.png', scene);
     
         //create sphere
-    var s2 = createSphere(1, 1, 50, 50);
+    var s3 = createSphere(1, 1, 50, 50);
 
     //wrap sphere in material from local file
     s2.material = fileMat('water.jpg', scene);
@@ -64,6 +64,11 @@ var createScene = function () {
 
     //wrap box in material from local file
     b2.material = fileMat('why.png');
+    
+    var b3 = createBox(0, 50, 10, 10, 10, 10);
+
+    //wrap box in material from local file
+    b2.material = fileMat('shipp.png');
 
     return scene;
 };
