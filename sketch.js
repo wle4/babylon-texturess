@@ -63,12 +63,12 @@ var createScene = function () {
     var b2 = createBox(0, -2, -1.5, 2, 2, 2);
 
     //wrap box in material from local file
-    b2.material = fileMat('#00008B');
+    b2.material = hexMat('#00008B');
     
     var b3 = createBox(0, 50, 10, 10, 10, 10);
 
     //wrap box in material from local file
-    b3.material = fileMat('shipp.png');
+    b3.material = fileMat('ship.jpg');
 
     return scene;
 };
