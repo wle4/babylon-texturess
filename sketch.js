@@ -68,7 +68,7 @@ var createScene = function () {
     var b3 = createBox(0, 50, 10, 10, 10, 10);
 
     //wrap box in material from local file
-    b3.material = fileMat('ship.jpg');
+    b3.material = fileMat('ship.jpg', scene);
 
     return scene;
 };
